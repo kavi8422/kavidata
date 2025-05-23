@@ -1,0 +1,37 @@
+.site-header headroom{
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: block;
+    unicode-bidi: isolate;
+}
+#page {
+    position: relative;
+    word-wrap: break-word;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8fafc;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(248,250,252);
+    color: var(--text-color);
+}
+body,button,input,select,textarea{
+    font-weight: 400;
+}
